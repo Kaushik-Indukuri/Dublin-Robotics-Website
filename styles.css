@@ -291,7 +291,7 @@ body {
 /* HOME SECTION */
 .home {
   display: flex;
-  background: url("/img/home-bkng.png") no-repeat;
+  background: url("img/home-bkng.png") no-repeat;
   height: 100vh;
   color: white;
   min-height: 500px;
@@ -350,7 +350,7 @@ body {
   left: 0;
   width: 0;
   height: 100%;
-  background: url("/img/btn-bg.png");
+  background: url("img/btn-bg.png");
   background-size: cover;
   transform-origin: left;
   transition: 0.5s;
@@ -488,19 +488,19 @@ body {
 
 .card_img {
   grid-area: img;
-  background: url("/img/build-img.png");
+  background: url("img/build-img.png");
   margin: 20px 20px 0px 20px;
   border-radius: 7px;
   background-size: cover;
 }
 
 #code {
-  background: url("/img/code-img.jpeg");
+  background: url("img/code-img.jpeg");
   background-size: cover;
 }
 
 #compete {
-  background: url("/img/compete-img.jpeg");
+  background: url("img/compete-img.jpeg");
   background-size: cover;
 }
 
