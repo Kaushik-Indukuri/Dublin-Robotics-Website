@@ -132,7 +132,7 @@
                         EDR platform. We also offer group session and summer programs.</p>
                 </div>
                 <div class="card_btn">
-                    <button>SEE DETAILS</button>
+                    <a href="#contact_form" class="abt_btn">LEARN MORE</a>
                 </div>
             </div>
             <div class="card">
@@ -145,7 +145,7 @@
                         Skills, Graphical Robot C, VEX Robot Virtual Worlds, Autodesk & VEX Assembler.</p>
                 </div>
                 <div class="card_btn">
-                    <button>SEE DETAILS</button>
+                    <a href="#contact_form" class="abt_btn">LEARN MORE</a>
                 </div>
             </div>
             <div class="card">
@@ -158,7 +158,7 @@
                         facility.</p>
                 </div>
                 <div class="card_btn">
-                    <button>SEE DETAILS</button>
+                    <a href="#contact_form" class="abt_btn">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -441,53 +441,63 @@
     <!--CONTACT US SECTION-->
     <section class="form" id="contact_form">
         <div class="container">
-            <h2>Contact Us Form</h2>
-            <div class="row100">
-                <div class="col">
-                    <div class="input_box">
-                        <input type="text" required="required" name="">
-                        <span class="form_text">First Name</span>
-                        <span class="line"></span>
+            <form name="ctact_form" action="">
+                <h2>Contact Us Form</h2>
+                <div class="row100">
+                    <div class="col">
+                        <div class="input_box">
+                            <input type="text" required="required" name="">
+                            <span class="form_text">First Name</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input_box">
+                            <input type="text" required="required" name="">
+                            <span class="form_text">Last Name</span>
+                            <span class="line"></span>
+                        </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="input_box">
-                        <input type="text" required="required" name="">
-                        <span class="form_text">Last Name</span>
-                        <span class="line"></span>
+                <div class="row100">
+                    <div class="col">
+                        <div class="input_box">
+                            <input type="text" required="required" name="">
+                            <span class="form_text">Email</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input_box">
+                            <input type="text" required="required" name="">
+                            <span class="form_text">Mobile</span>
+                            <span class="line"></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row100">
-                <div class="col">
-                    <div class="input_box">
-                        <input type="text" required="required" name="">
-                        <span class="form_text">Email</span>
-                        <span class="line"></span>
+                <div class="row100">
+                    <div class="col">
+                        <div class="input_box text_area">
+                            <textarea required="required"></textarea>
+                            <span class="form_text">Type Your Message Here...</span>
+                            <span class="line"></span>
+                        </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="input_box">
-                        <input type="text" required="required" name="">
-                        <span class="form_text">Mobile</span>
-                        <span class="line"></span>
+                <div class="row100">
+                    <div class="col">
+                        <input type="submit" value="Send" onclick="submitForm()">
                     </div>
                 </div>
-            </div>
-            <div class="row100">
-                <div class="col">
-                    <div class="input_box text_area">
-                        <textarea required="required"></textarea>
-                        <span class="form_text">Type Your Message Here...</span>
-                        <span class="line"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="row100">
-                <div class="col">
-                    <input type="submit" value="Send">
-                </div>
-            </div>
+                <script>
+                    function submitForm() {
+                        var frm = document.getElementsByName('ctact_form')[0];
+                        frm.submit(); // Submit the form
+                        frm.reset();  // Reset all form data
+                        return false; // Prevent page refresh
+                    }
+                </script>
+            </form>
         </div>
     </section>
 

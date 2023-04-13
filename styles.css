@@ -527,13 +527,13 @@ body {
 }
 
 .card_btn {
-  grid-area: btn;
+  margin-top: 8px;
   text-align: start;
 }
 
-.card_btn button {
+.abt_btn {
+  text-decoration: none;
   margin-left: 20px;
-  margin-bottom: 20px;
   color: #4f8bef;
   font-size: 15px;
   background: white;
@@ -543,7 +543,7 @@ body {
   cursor: pointer;
 }
 
-.card_btn button:hover {
+.abt_btn:hover {
   color: white;
   background-image: linear-gradient(to right, #4f8bef 0%, #42b4f5 100%);
 }
@@ -626,7 +626,6 @@ body {
 
 
 .ct {
-  text-align: center;
   background: white;
   border-radius: 20px;
   border: 1px solid #4f8bef;
