@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,289 +14,498 @@
     <script src="https://kit.fontawesome.com/70c1584286.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 </head>
-    <body>
 
-        <!--NAVBAR START-->
-        <nav class="navbar">
-            <div class="mobile_nav">
-                <a href="/" id="logo1">
-                    <img class="logo1" src="img/drc-logo.png">
-                </a>
-                <div class="menu_btn">
-                    <ion-icon name="grid-outline"></ion-icon>
-                </div>
-            </div>
-            <div class="nav_container">
-                <div class="toggled_nav">
-                    <a href="/" id="nav_logo">
-                        <img class="logo" src="img/drc-logo.png">
-                    </a>
-                    <div class="menu_btn" id="exit_btn">
-                        <ion-icon name="close-outline"></ion-icon>
-                    </div>
-                </div>
-                <div class="nav_toggle" id="mobile_menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-                <ul class="nav_menu">
-                    <li class="nav_item">
-                        <a href="#start" class="nav_links">Home</a>   
-                    </li>
-                    <li class="nav_item">
-                        <a href="#" class="nav_links" id="memberships">Memberships</a>   
-                    </li>
-                    <li class="nav_item">
-                        <a href="#" class="nav_links" id="camps">Summer Camp</a>   
-                    </li>
-                    <li class="nav_item">
-                        <a href="#" class="nav_links" id="grants">Grants/Patents</a>   
-                    </li>
-                    <li class="nav_btn">
-                        <a href="#contact_form" class="contact_btn" id="contact_us">Contact Us</a>   
-                    </li>
-                </ul>
-            </div>
-        </nav>
+<body>
 
-
-        <!--HOME SECTION START-->
-        <section class="home" id="start">
-            <div class="home_container">
-                <div class="home_content">
-                    <div class="text-1" id="txt-1">
-                        <h2>Build Program</h2>
-                    </div>
-                    <div class="text-1" id="txt-2">
-                        <h2>Test Repeat<span class="dot"></span></h2>
-                    </div>
-                    <a href="#" class="learn_btn"> <span>LEARN MORE</span>
-                        <span class="arrow_icon">
-                            <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </span>
-                    </a>
-                    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-                    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-                </div>
-                <div class="home_img">
-                    <img src="img/IsoRobot.svg" id="home_img">
-                </div>
-            </div>
-            <div class="social_icons">
-                <ul>
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/dialog/share?app_id=140586622674265&display=popup&href=https%3A%2F%2Fwww.dublinroboticsclub.com%2Fhome.html&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fthankyou.html" class="facebook_icon"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://twitter.com/intent/tweet?text=Home&url=https%3A%2F%2Fwww.dublinroboticsclub.com%2Fhome.html&related=" class="twitter_icon"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/dublinrobotics/" class="instagram_icon"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/company/dublin-robotics-club/about/" class="linkedin_icon"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.youtube.com/channel/UCS1OG0PU6gC2jsNIQ2zRffw" class="youtube_icon"> <i class="fab fa-youtube"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-
-        <!--ABOUT SECTION START-->
-        <section class="abt">
-            <h1 class="abt_header">Helping Students Fulfill Their Potential</h1>
-            <div class="abt_container">
-                <div class="card">
-                    <div class="card_img" id="build"></div>
-                    <div class="card_txt">
-                        <h1 id="c_txt">BUILD</h1>
-                        <h2>Understanding Design Process</h2>
-                        <p>Dublin Robotics Club provides one-on-one training to students on robot building in VEX IQ and VEX EDR platform. We also offer group session and summer programs.</p>
-                    </div>
-                    <div class="card_btn">
-                        <button>SEE DETAILS</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card_img" id="code"> </div>
-                    <div class="card_txt">
-                        <h1 id="c_txt">CODE</h1>
-                        <h2>Learn C++ and PROS</h2>
-                        <p>Learn programming fundamentals and apply them in practice. We cover Robot C, Mod Kit, STEM Skills, Graphical Robot C, VEX Robot Virtual Worlds, Autodesk & VEX Assembler.</p>
-                    </div>
-                    <div class="card_btn">
-                        <button>SEE DETAILS</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card_img" id="compete"></div>
-                    <div class="card_txt">
-                        <h1 id="c_txt">COMPETE</h1>
-                        <h2>VEX EDR and VEX IQ</h2>
-                        <p>Our Students compete in regional, state and international robotics competitions and have won numerous awards & accolades. We also host our own local tournaments in our facility.</p>
-                    </div>
-                    <div class="card_btn">
-                        <button>SEE DETAILS</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--AWARDS SECTION START-->
-        <section class="awards">
-            <div class="max_width">
-                <h1 class="awards_header">Awards</h1>
-                <div class="awards_container">
-                    <div class="row">
-                        <div class="award"><h2>Norcal State Champions</h2><p>2019</p></div>
-                        <div class="award"><h2>DV Tournament Champions</h2><p>2020</p></div>
-                    </div>
-                    <div class="row">
-                        <div class="award"><h2>Hawaii Sig Event Champions</h2><p>2020</p></div>
-                        <div class="award"><h2>Worlds Division Champions</h2><p>2021</p></div>
-                        <div class="award"><h2>VEX AI Excellence Award</h2><p>2021</p></div>
-                    </div>
-                    <div class="row">
-                        <div class="award"><h2>Pacific Open Excellence Award</h2><p>2021</p></div>
-                        <div class="award"><h2>US Open Tournament Finalists</h2><p>2019</p></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <!--TEAM SECTION-->
-        <section class="team">
-            <div class="curved">
-                <svg class="top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L80,96C160,96,320,96,480,117.3C640,139,800,181,960,213.3C1120,245,1280,267,1360,277.3L1440,288L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
-                <div class="team_container">
-                    <h2 class="team_header">Meet the Team</h2>
-                    <div class="carousel ">
-                        <div class="content">
-                            <div class="member_card">
-                                <div class="box">
-                                    <div class="border"><img src="img/sasi.jpeg" ></div>
-                                    <div class="text"><h2>Sasikumar</h2></div>
-                                    <p>CEO</p>
-                                </div>
-                            </div>
-                            <div class="member_card">
-                                <div class="box">
-                                    <div class="border"><img src="img/arya.jpeg" ></div>
-                                    <div class="text"><h2>Arya Sasikumar</h2></div>
-                                    <p>CTO</p>
-                                </div>
-                            </div>
-                            <div class="member_card">
-                                <div class="box">
-                                    <div class="border"><img src="img/kaushik.png" ></div>
-                                    <div class="text"><h2>Kaushik Indukuri</h2></div>
-                                    <p>VEX EDR COACH</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="content">
-                            <div class="member_card">
-                                <div class="box">
-                                    <div class="border"><img src="img/sasi.jpeg" ></div>
-                                    <div class="text"><h2>Sasikumar</h2></div>
-                                    <p>CEO</p>
-                                </div>
-                            </div>
-                            <div class="member_card">
-                                <div class="box">
-                                    <div class="border"><img src="img/arya.jpeg" ></div>
-                                    <div class="text"><h2>Arya Sasikumar</h2></div>
-                                    <p>CTO</p>
-                                </div>
-                            </div>
-                            <div class="member_card">
-                                <div class="box">
-                                    <div class="border"><img src="img/kaushik.png" ></div>
-                                    <div class="text"><h2>Kaushik Indukuri</h2></div>
-                                    <p>VEX EDR COACH</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <svg class="bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L80,96C160,96,320,96,480,117.3C640,139,800,181,960,213.3C1120,245,1280,267,1360,277.3L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
-            </div>
-        </section>
-
-        <!--CONTACT US SECTION-->
-        <section class="form" id="contact_form">
-            <div class="container">
-                <h2>Contact Us Form</h2>
-                <div class="row100">
-                    <div class="col">
-                        <div class="input_box">
-                            <input type="text" required="required" name="">
-                            <span class="form_text">First Name</span>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="input_box">
-                            <input type="text" required="required" name="">
-                            <span class="form_text">Last Name</span>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row100">
-                    <div class="col">
-                        <div class="input_box">
-                            <input type="text" required="required" name="">
-                            <span class="form_text">Email</span>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                    <div class="col"> 
-                        <div class="input_box">
-                            <input type="text" required="required" name="">
-                            <span class="form_text">Mobile</span>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row100">
-                    <div class="col">
-                        <div class="input_box text_area">
-                            <textarea required="required"></textarea>
-                            <span class="form_text">Type Your Message Here...</span>
-                            <span class="line"></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row100">
-                    <div class="col">
-                        <input type="submit" value="send">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--FOOTER SECTION-->
-        <footer>
-            <span>Created By <span class="creator">Kaushik Indukuri</span> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
-        </footer>
-
-        <!--POP UPS SECTION-->
-        <div class="popup">
-            <div class="pop_content">
-                <div class="close"><ion-icon name="close-outline"></ion-icon></div>
-                <h1>In Development</h1>
+    <!--NAVBAR START-->
+    <nav class="navbar">
+        <div class="mobile_nav">
+            <a href="/" id="logo1">
+                <img class="logo1" src="img/drc-logo.png">
+            </a>
+            <div class="menu_btn">
+                <ion-icon name="grid-outline"></ion-icon>
             </div>
         </div>
+        <div class="nav_container">
+            <div class="toggled_nav">
+                <a href="/" id="nav_logo">
+                    <img class="logo" src="img/drc-logo.png">
+                </a>
+                <div class="menu_btn" id="exit_btn">
+                    <ion-icon name="close-outline"></ion-icon>
+                </div>
+            </div>
+            <div class="nav_toggle" id="mobile_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav_menu">
+                <li class="nav_item">
+                    <a href="#start" class="nav_links">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#mem_sec" class="nav_links" id="memberships">Membership</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#camp_sec" class="nav_links" id="camps">Camps</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#research_sec" class="nav_links" id="grants">Research</a>
+                </li>
+                <li class="nav_btn">
+                    <a href="#contact_form" class="contact_btn" id="contact_us">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-        <script src="app.js"></script>
-    </body>
+
+    <!--HOME SECTION START-->
+    <section class="home" id="start">
+        <div class="home_container">
+            <div class="home_content">
+                <div class="text-1" id="txt-1">
+                    <h2>Build Program</h2>
+                </div>
+                <div class="text-1" id="txt-2">
+                    <h2>Test Robots<span class="dot"></span></h2>
+                </div>
+                <a href="#contact_form" class="learn_btn"> <span>REGISTER</span>
+                    <span class="arrow_icon">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </span>
+                </a>
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+            </div>
+            <div class="home_img">
+                <img src="img/IsoRobot.svg" id="home_img">
+            </div>
+        </div>
+        <div class="social_icons">
+            <ul>
+                <li>
+                    <a target="_blank"
+                        href="https://www.facebook.com/dialog/share?app_id=140586622674265&display=popup&href=https%3A%2F%2Fwww.dublinroboticsclub.com%2Fhome.html&redirect_uri=http%3A%2F%2Fs7.addthis.com%2Fstatic%2Fthankyou.html"
+                        class="facebook_icon"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a target="_blank"
+                        href="https://twitter.com/intent/tweet?text=Home&url=https%3A%2F%2Fwww.dublinroboticsclub.com%2Fhome.html&related="
+                        class="twitter_icon"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/dublinrobotics/" class="instagram_icon"><i
+                            class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/company/dublin-robotics-club/about/"
+                        class="linkedin_icon"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCS1OG0PU6gC2jsNIQ2zRffw"
+                        class="youtube_icon"> <i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!--ABOUT SECTION START-->
+    <section class="abt" id="abt_sec">
+        <h1 class="abt_header">Helping Students Fulfill Their Potential</h1>
+        <div class="abt_container">
+            <div class="card">
+                <div class="card_img" id="build"></div>
+                <div class="card_txt">
+                    <h1 id="c_txt">BUILD</h1>
+                    <h2>Engineering Design Process</h2>
+                    <p class="txt_style">Dublin Robotics Club provides one-on-one training to students on robot building
+                        in VEX IQ and VEX
+                        EDR platform. We also offer group session and summer programs.</p>
+                </div>
+                <div class="card_btn">
+                    <button>SEE DETAILS</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_img" id="code"> </div>
+                <div class="card_txt">
+                    <h1 id="c_txt">CODE</h1>
+                    <h2>Learn C++ and PROS</h2>
+                    <p class="txt_style">Learn programming fundamentals and apply them in practice. We cover Robot C,
+                        Mod Kit, STEM
+                        Skills, Graphical Robot C, VEX Robot Virtual Worlds, Autodesk & VEX Assembler.</p>
+                </div>
+                <div class="card_btn">
+                    <button>SEE DETAILS</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card_img" id="compete"></div>
+                <div class="card_txt">
+                    <h1 id="c_txt">COMPETE</h1>
+                    <h2>VEX EDR and VEX IQ</h2>
+                    <p class="txt_style">Our Students compete in regional, state and international robotics competitions
+                        and have won numerous awards & accolades. We also host our own local tournaments in our
+                        facility.</p>
+                </div>
+                <div class="card_btn">
+                    <button>SEE DETAILS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--MEMBERSHIP SECTION START-->
+    <section class="membership" id="mem_sec">
+        <div class="member_container">
+            <h1 class="abt_header">Membership</h1>
+            <div class="col">
+                <div class="card_img" id="build"></div>
+                <div class="mem_txt">
+                    <h2>Dublin Robotics Club Timing</h2>
+                    <p class="txt_style">Sundays</p>
+                    <ul class="txt_style">
+                        <li>1:00pm - 2:30pm</li>
+                        <li>2:30pm - 4:00pm</li>
+                        <li>4:00pm - 5:30pm</li>
+                        <li>5:30pm - 7:00pm</li>
+                    </ul>
+                    <p class="txt_style">Tuesdays</p>
+                    <ul class="txt_style">
+                        <li>5:00pm - 6:30pm</li>
+                        <li>6:30pm - 8:00pm</li>
+                    </ul>
+                    <p class="txt_style">Fridays</p>
+                    <ul class="txt_style">
+                        <li>5:00pm - 6:30pm</li>
+                        <li>6:30pm - 8:00pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card_img" id="code"> </div>
+                <div class="mem_txt">
+                    <h2>Robolabs Fremont Timing</h2>
+                    <p class="txt_style">Sundays</p>
+                    <ul class="txt_style">
+                        <li>1:00pm - 2:30pm</li>
+                        <li>2:30pm - 4:00pm</li>
+                        <li>4:00pm - 5:30pm</li>
+                        <li>5:30pm - 7:00pm</li>
+                    </ul>
+                    <p class="txt_style">Tuesdays</p>
+                    <ul class="txt_style">
+                        <li>5:00pm - 6:30pm</li>
+                        <li>6:30pm - 8:00pm</li>
+                    </ul>
+                    <p class="txt_style">Fridays</p>
+                    <ul class="txt_style">
+                        <li>5:00pm - 6:30pm</li>
+                        <li>6:30pm - 8:00pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card_img" id="compete"></div>
+                <h2>Fees</h2>
+                <div class="fees_txt">
+                    <h3>VEX IQ or FLL - $300/MONTH</h3>
+                    <p class="txt_style">Elementary & Middle School Students</p>
+                    <br>
+                    <h3>VEX EDR or FTC - $300/MONTH</h3>
+                    <p class="txt_style">Middle & High School Students <br></p>
+                    <br>
+                    <p class="txt_style">Please Contact Us to learn more</p>
+                </div>
+                <div class="fbutton_div">
+                    <a href="#contact_form" class="ct">CONTACT US</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CAMP SECTION START-->
+    <section class="camps" id="camp_sec">
+        <div class="member_container">
+            <h1 class="abt_header">Camps</h1>
+            <div class="col">
+                <div class="card_img" id="build"></div>
+                <h2>Summer Camp</h2>
+                <div class="camp_txt">
+                    <p class="txt_style">Summer camp is offered as half day and full day camps</p>
+                    <p class="txt_style">Jun 4 - Aug 4</p>
+                    <br>
+                    <h3 id="cmp_title">Programs</h3>
+                    <ul class="txt_style">
+                        <li>5 Full days: 9am - 3pm - $650</li>
+                        <li>5 Half days: 9am to 12pm - $385</li>
+                        <li>5 Half days: 12pm to 3pm - $385</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card_img" id="code"> </div>
+                <h2>Thanksgiving Camp</h2>
+                <div class="camp_txt">
+                    <p class="txt_style">Thanksgiving camp is offered as a 3 full day program</p>
+                    <p class="txt_style">Nov 20 - Nov 22</p>
+                    <br>
+                    <h3 id="cmp_title">Programs</h3>
+                    <ul class="txt_style">
+                        <li>3 Full days: 9am - 3pm - $390</li>
+                        <li>3 Half days: 9am to 12pm - $220</li>
+                        <li>3 Half days: 12pm to 3pm - $220</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card_img" id="compete"></div>
+                <h2>Christmas Camp</h2>
+                <div class="camp_txt">
+                    <p class="txt_style">Christmas camp is offered as half day and full day camps</p>
+                    <p class="txt_style">Dec 18 - Jan 5</p>
+                    <br>
+                    <h3 id="cmp_title">Programs</h3>
+                    <ul class="txt_style">
+                        <li>5 Full days: 9am - 3pm - $500</li>
+                        <li>5 Half days: 9am to 12pm - $300</li>
+                        <li>5 Half days: 12pm to 3pm - $300</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="cbutton_div">
+            <a href="#contact_form" class="ct">FIND OUT MORE</a>
+        </div> -->
+    </section>
+
+    <!--RESEARCH SECTION START-->
+    <section class="research" id="research_sec">
+        <div class="member_container">
+            <h1 class="abt_header">Research</h1>
+            <div class="col">
+                <div class="card_img" id="build"></div>
+                <h2>Grants</h2>
+                <div class="camp_txt">
+                    <p class="txt_style">We guide students to come up with plans to create grants application based on
+                        their interest in their aspirational college discipline and career paths
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card_img" id="code"> </div>
+                <h2>Patents</h2>
+                <div class="camp_txt">
+                    <p class="txt_style">We helps students to form teams, facilitate students to come up with innovative
+                        ideas and create patent applications</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card_img" id="compete"></div>
+                <h2>Publications</h2>
+                <div class="camp_txt">
+                    <p class="txt_style">Our Research Paper program helps students with curious mind to develop research
+                        proposal in their field of interest</p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="cbutton_div">
+            <a href="#contact_form" class="ct">FIND OUT MORE</a>
+        </div> -->
+    </section>
+
+    <!--AWARDS SECTION START-->
+    <section class="awards" id="awards_sec">
+        <div class="max_width">
+            <h1 class="awards_header">Awards</h1>
+            <div class="awards_container">
+                <div class="row">
+                    <div class="award">
+                        <h2>Norcal State Champions</h2>
+                        <p>2019</p>
+                    </div>
+                    <div class="award">
+                        <h2>DV Tournament Champions</h2>
+                        <p>2020</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="award">
+                        <h2>Hawaii Sig Event Champions</h2>
+                        <p>2020</p>
+                    </div>
+                    <div class="award">
+                        <h2>Worlds Division Champions</h2>
+                        <p>2021</p>
+                    </div>
+                    <div class="award">
+                        <h2>VEX AI Excellence Award</h2>
+                        <p>2021</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="award">
+                        <h2>Pacific Open Excellence Award</h2>
+                        <p>2021</p>
+                    </div>
+                    <div class="award">
+                        <h2>US Open Tournament Finalists</h2>
+                        <p>2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--TEAM SECTION-->
+    <section class="team" id="team">
+        <div class="curved">
+            <!-- <svg class="top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L80,96C160,96,320,96,480,117.3C640,139,800,181,960,213.3C1120,245,1280,267,1360,277.3L1440,288L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg> -->
+            <div class="team_container">
+                <h2 class="team_header">Meet the Team</h2>
+                <div class="carousel ">
+                    <div class="content">
+                        <div class="member_card">
+                            <div class="box">
+                                <div class="border"><img src="img/sasi.jpeg"></div>
+                                <div class="text">
+                                    <h2>Sasikumar</h2>
+                                </div>
+                                <p>CEO</p>
+                            </div>
+                        </div>
+                        <div class="member_card">
+                            <div class="box">
+                                <div class="border"><img src="img/arya.jpeg"></div>
+                                <div class="text">
+                                    <h2>Arya Sasikumar</h2>
+                                </div>
+                                <p>CTO</p>
+                            </div>
+                        </div>
+                        <div class="member_card">
+                            <div class="box">
+                                <div class="border"><img src="img/iniyan.png"></div>
+                                <div class="text">
+                                    <h2>Iniyan Sasikumar</h2>
+                                </div>
+                                <p>COO</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="member_card">
+                            <div class="box">
+                                <div class="border"><img src="img/sasi.jpeg"></div>
+                                <div class="text">
+                                    <h2>Sasikumar</h2>
+                                </div>
+                                <p>CEO</p>
+                            </div>
+                        </div>
+                        <div class="member_card">
+                            <div class="box">
+                                <div class="border"><img src="img/arya.jpeg"></div>
+                                <div class="text">
+                                    <h2>Arya Sasikumar</h2>
+                                </div>
+                                <p>CTO</p>
+                            </div>
+                        </div>
+                        <div class="member_card">
+                            <div class="box">
+                                <div class="border"><img src="img/kaushik.png"></div>
+                                <div class="text">
+                                    <h2>Kaushik Indukuri</h2>
+                                </div>
+                                <p>VEX EDR COACH</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <svg class="bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,96L80,96C160,96,320,96,480,117.3C640,139,800,181,960,213.3C1120,245,1280,267,1360,277.3L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg> -->
+        </div>
+    </section>
+
+    <!--CONTACT US SECTION-->
+    <section class="form" id="contact_form">
+        <div class="container">
+            <h2>Contact Us Form</h2>
+            <div class="row100">
+                <div class="col">
+                    <div class="input_box">
+                        <input type="text" required="required" name="">
+                        <span class="form_text">First Name</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input_box">
+                        <input type="text" required="required" name="">
+                        <span class="form_text">Last Name</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <div class="input_box">
+                        <input type="text" required="required" name="">
+                        <span class="form_text">Email</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="input_box">
+                        <input type="text" required="required" name="">
+                        <span class="form_text">Mobile</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <div class="input_box text_area">
+                        <textarea required="required"></textarea>
+                        <span class="form_text">Type Your Message Here...</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <input type="submit" value="Send">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER SECTION-->
+    <footer>
+        <span>Created By <span class="creator">Kaushik Indukuri</span> | <span class="far fa-copyright"></span> 2021 All
+            rights reserved.</span>
+    </footer>
+
+    <!--POP UPS SECTION-->
+    <!-- <div class="popup">
+        <div class="pop_content">
+            <div class="close"><ion-icon name="close-outline"></ion-icon></div>
+            <h1>In Development</h1>
+        </div>
+    </div> -->
+
+    <script src="app.js"></script>
+</body>
+
 </html>
